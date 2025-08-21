@@ -100,6 +100,30 @@ background: #f8f9fa;
 box-shadow: none;
 }
 
+/* RESEARCH & PROJECTS */
+.card-year {
+  background-color: #295d78; /* Green background */
+  color: white;              /* White text */
+  border-radius: 50rem;      /* Makes it pill-shaped */
+  padding: 0.1rem 1rem;  /* Vertical and horizontal padding */
+  font-size: 0.75rem;        /* Smaller text */
+  font-weight: 500;          /* Medium font weight */
+}
+
+.card-text-custom {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  padding-top: 0.7rem;    
+  padding-bottom: 0rem;
+  color: #555555; 
+}
+
+.card-custom-height {
+  height: 350px; /* change this value to whatever you want */
+  display: flex;
+  flex-direction: column;
+}
+
 /* FOOTER */
 
 footer {
