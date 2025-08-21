@@ -219,9 +219,9 @@
         </div>
     </section>
 
-    <section id="projects" class="py-5 bg-light">
+    <section id="projects" class="pt-3 pb-5">
       <div class="container">
-        <h1 class="mb-4">Research & Projects</h1>
+        <h1>Research & Projects</h1>
         <div class="row g-4">
           <div class="col-12 col-md-4">
             <h5>Research Experiences</h5>
@@ -240,44 +240,116 @@
               </div>
             </div>
           </div>
-            
+
           <div class="col-12 col-md-4">
             <h5>Published Works</h5>
-            <div class="card h-100 shadow-sm border-0">
-              <img src="images/acm-sigspatial.png" class="card-img-top" alt="Project 2 preview">
-              <div class="card-body d-flex flex-column">
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                  <h5 class="card-title mb-0">ZoneRank</h5>
-                  <span class="card-year">2025</span>                
+            <div id="publishedWorksCarousel" class="carousel slide shadow-sm border-0" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                
+                <!-- First item -->
+                <div class="carousel-item active">
+                  <div class="card h-100 shadow-sm border-0">
+                    <img src="images/acm-sigspatial.png" class="card-img-top" alt="ZoneRank preview">
+                    <div class="card-body d-flex flex-column">
+                      <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h5 class="card-title mb-0">ZoneRank</h5>
+                        <span class="card-year">2025</span>
+                      </div>
+                      <p class="card-text-custom">
+                        Xiao K., Irisumi M., (2025). A Graph-Based Spatio-Temporal POI Ranking Measure for Pickup and Delivery Platforms. 
+                        <i>ACM SIGSPATIAL Undergraduate Student Research Competition.</i> [Event: November 3, 2025]
+                      </p>
+                      <div class="mt-auto d-flex gap-2">
+                        <a href="https://sigspatial2025.sigspatial.org/src-submission/" class="btn btn-outline-dark flex-fill" target="_blank" rel="noopener">SRC Info</a>
+                        <a href="#" class="btn btn-outline-dark flex-fill">Paper (coming soon...)</a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <p class="card-text-custom">
-                  Xiao K., Irisumi M., (2025). A Graph-Based Spatio-Temporal POI Ranking Measure for Pickup and Delivery Platforms. 
-                  <i>ACM SIGSPATIAL Undergraduate Student Research Competition.</i> [Event: November 3, 2025]
-                </p>
-                <div class="mt-auto d-flex gap-2">
-                  <a href="https://sigspatial2025.sigspatial.org/src-submission/" class="btn btn-outline-dark flex-fill">SRC Website</a>
-                  <a href="#" class="btn btn-outline-dark flex-fill">Paper (coming soon...)</a>
+          
+                <div class="carousel-item">
+                  <div class="card h-100 shadow-sm border-0">
+                    <img src="images/umd-interpolations.png" class="card-img-top" alt="UMD Department of English">
+                    <div class="card-body d-flex flex-column">
+                      <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h5 class="card-title mb-0">Normalize Menstruation</h5>
+                        <span class="card-year">2023</span>
+                      </div>
+                      <p class="card-text-custom">
+                          Xiao, Karen. “Normalize Menstruation, End Period Poverty” UMD Interpolations (Fall 2023 ed.), 2023.
+                          [Annotated version also published in <i>Fearless Writing: Rhetoric, Inquiry, Argument (3e)</i>, 2025.]
+                      </p>
+                      <div class="mt-auto d-flex gap-2">
+                        <a href="https://english.umd.edu/research-innovation/journals/interpolations/fall-2023/normalize-menstruation-end-period-poverty" class="btn btn-outline-dark flex-fill" target="_blank" rel="noopener">Paper</a>
+                        <a href="documents/karen-xiao-revised-infographic-for-interpolations-2023.pdf" class="btn btn-outline-dark flex-fill" target="_blank" rel="noopener">Public Remediation Project</a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
+          
+              <!-- Carousel controls -->
+              <button class="carousel-control-prev custom-carousel-btn" type="button" data-bs-target="#publishedWorksCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next custom-carousel-btn" type="button" data-bs-target="#publishedWorksCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </button>
             </div>
           </div>
-    
+
           <div class="col-12 col-md-4">
             <h5>Projects</h5>
-            <div class="card h-100 shadow-sm border-0">
-              <img src="images/cs-340.png" class="card-img-top" alt="Project 3 preview">
-              <div class="card-body d-flex flex-column">
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                  <h5 class="card-title mb-0">Modeling Bellman-Ford in Alloy</h5>
-                  <span class="card-year">2024</span>                
+            <div id="projectsCarousel" class="carousel slide shadow-sm border-0" data-bs-ride="carousel">
+              <div class="carousel-inner">
+          
+                <!-- First item -->
+                <div class="carousel-item active">
+                  <div class="card h-100 shadow-sm border-0">
+                    <img src="images/cs-340.png" class="card-img-top" alt="CS340">
+                    <div class="card-body d-flex flex-column">
+                      <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h5 class="card-title mb-0">Modeling Bellman-Ford</h5>
+                        <span class="card-year">2024</span>                
+                      </div>
+                      <p class="card-text-custom">
+                        Our project tackles two main problems: modeling the normal Bellman-Ford Algorithm and modeling the distributed (DSDV) Bellman-Ford Algorithm in Alloy.
+                      </p>
+                      <div class="mt-auto d-flex gap-2">
+                        <a href="documents/340 final presentation Grace Karen.pdf" class="btn btn-outline-dark flex-fill" target="_blank" rel="noopener">Presentation</a>
+                        <a href="https://github.com/gracejiang16/bellmanford-adhoc" class="btn btn-outline-dark flex-fill" target="_blank" rel="noopener">Github</a>
+                      </div>              
+                    </div>
+                  </div>
                 </div>
-                <p class="card-text-custom">
-                  Our project tackles two main problems: modeling the normal Bellman-Ford Algorithm and modeling the distributed (DSDV) Bellman-Ford Algorithm in Alloy.
-                </p>
-                <div class="mt-auto d-flex gap-2">
-                  <a href="documents/340 final presentation Grace Karen.pdf" class="btn btn-outline-dark flex-fill">Presentation</a>
-                  <a href="https://github.com/gracejiang16/bellmanford-adhoc" class="btn btn-outline-dark flex-fill">Github</a>
-                </div>              </div>
+          
+                <div class="carousel-item">
+                  <div class="card h-100 shadow-sm border-0">
+                    <img src="images/drip-labs.png" class="card-img-top" alt="DRIP Labs">
+                    <div class="card-body d-flex flex-column">
+                      <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h5 class="card-title mb-0">Drip Labs</h5>
+                        <span class="card-year">2025</span>                
+                      </div>
+                      <p class="card-text-custom">
+                        DRIP Labs is a fun showcase celebrating the 2025 CMU HCII REU Cohort. This site compiles our research and creative endeavors throughout the summer.
+                      </p>
+                      <div class="mt-auto d-flex gap-2">
+                        <a href="https://haleynoh.github.io/drip-labs/" class="btn btn-outline-dark flex-fill" target="_blank" rel="noopener">Website</a>
+                      </div>              
+                    </div>
+                  </div>
+                </div>
+          
+              </div>
+          
+              <!-- Carousel controls -->
+              <button class="carousel-control-prev custom-carousel-btn" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next custom-carousel-btn" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </button>
             </div>
           </div>
     
@@ -286,14 +358,14 @@
     </section>
     
     </main>
+
     <footer>
         <p><span class="text-muted">© Karen Xiao, 2025. | THIS SITE IS LICENSED UNDER THE MIT LICENSE</span></p>
-        <p><span class="text-muted">last updated: August 20, 2025</span></p>
+        <p><span class="text-muted">last updated: August 21 2025</span></p>
     </footer>
 
     <script src="js/jquery-3.7.0.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
 
 </body>
 </html>

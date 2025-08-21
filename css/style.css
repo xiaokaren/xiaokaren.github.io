@@ -124,6 +124,61 @@ box-shadow: none;
   flex-direction: column;
 }
 
+@media (max-width: 767px) {
+  #projects .col-12 {
+    margin-top: 3rem; /* adjust as needed */
+  }
+
+  /* optional: remove extra margin from the very first one */
+  #projects .col-12:first-child {
+    margin-top: 0;
+  }
+}
+
+#publishedWorksCarousel {
+  height: 100%;
+}
+
+#publishedWorksCarousel .carousel-inner,
+#publishedWorksCarousel .carousel-item,
+#publishedWorksCarousel .card {
+  height: 100%;
+}
+
+#projectsCarousel {
+  height: 100%;
+}
+
+#projectsCarousel .carousel-inner,
+#projectsCarousel .carousel-item,
+#projectsCarousel .card {
+  height: 100%;
+}
+
+/* General carousel button styling */
+.custom-carousel-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255); /* semi-transparent black */
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0;
+}
+
+.custom-carousel-btn:hover {
+  background-color: rgb(255, 255, 255); /* darker on hover */
+  opacity: 0.8;
+}
+
+/* Make the arrow icons white */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+  width: 20px;
+  height: 20px;
+}
+
 /* FOOTER */
 
 footer {
