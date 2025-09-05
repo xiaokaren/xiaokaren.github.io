@@ -74,6 +74,12 @@ font-size: 1.25rem;
     border-color: #295d78;      /* optional: match border to background */
 }
 
+.skill-button {
+  background-color: #295d78;  /* your desired hover background */
+  color: white;               /* text color on hover */
+  border-color: #295d78;      /* optional: match border to background */
+}
+
 /* SKILLS */
 .skill-img {
     max-width: 80px;
