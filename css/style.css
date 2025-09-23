@@ -161,6 +161,16 @@ box-shadow: none;
   height: 100%;
 }
 
+#researchCarousel {
+  height: 100%;
+}
+
+#researchCarousel .carousel-inner,
+#researchCarousel .carousel-item,
+#researchCarousel .card {
+  height: 100%;
+}
+
 /* General carousel button styling */
 .custom-carousel-btn {
   width: 40px;

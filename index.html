@@ -37,7 +37,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#projects">Projects</a>
-                  </li>
+                </li>
               </ul>
             </div>
           </div>
@@ -227,19 +227,54 @@
         <div class="row g-4">
           <div class="col-12 col-md-4">
             <h5>Research Experiences</h5>
-            <div class="card h-100 shadow-sm border-0">
-              <img src="images/cmu-hcii.png" class="card-img-top" alt="Project 1 preview">
-              <div class="card-body d-flex flex-column">
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                  <h5 class="card-title mb-0">NSF REU Fellow</h5>
-                  <span class="card-year">2025</span>                
+            <div id="researchCarousel" class="carousel slide shadow-sm border-0" data-bs-ride="carousel">
+              <div class="carousel-inner">
+          
+                <!-- First item -->
+                <div class="carousel-item active">
+                  <div class="card h-100 shadow-sm border-0">
+                    <img src="images/cmu-hcii.png" class="card-img-top" alt="Project 1 preview">
+                    <div class="card-body d-flex flex-column">
+                      <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h5 class="card-title mb-0">NSF REU Fellow</h5>
+                        <span class="card-year">2025</span>                
+                      </div>
+                      <p class="card-text card-text-custom">
+                          Applied methods from educational data science and statistics to analyze the impacts of 
+                          data-driven redesign of tutoring systems on student learning outcomes.
+                      </p>
+                      <a href="documents/Xiao-ExploringTheImpactOfDataDrivenOptimizationOfTutoringSystemsOnStudentLearning.pdf" class="btn btn-outline-dark mt-auto" target="_blank" rel="noopener">Poster</a>
+                    </div>
+                  </div>
                 </div>
-                <p class="card-text card-text-custom">
-                    Applied methods from educational data science and statistics to analyze the impacts of 
-                    data-driven redesign of tutoring systems on student learning outcomes.
-                </p>
-                <a href="documents/Xiao-ExploringTheImpactOfDataDrivenOptimizationOfTutoringSystemsOnStudentLearning.pdf" class="btn btn-outline-dark mt-auto" target="_blank" rel="noopener">Poster</a>
+          
+                <div class="carousel-item">
+                  <div class="card h-100 shadow-sm border-0">
+                    <img src="images/imd.png" class="card-img-top" alt="DRIP Labs">
+                    <div class="card-body d-flex flex-column">
+                      <div class="d-flex justify-content-between align-items-center mb-2">
+                        <h5 class="card-title mb-0">IMD Research Intern</h5>
+                        <span class="card-year">2025</span>                
+                      </div>
+                      <p class="card-text-custom">
+                         Conducted research on original empirical analysis of ranked choice voting methods for the Institute for Mathematics and Democracy.
+                      </p>
+                      <div class="mt-auto d-flex gap-2">
+                        <a href="https://mathematics-democracy-institute.org/empirical-analysis-of-ranked-choice-voting-methods/" class="btn btn-outline-dark flex-fill" target="_blank" rel="noopener">Written Report + Visualization Website</a>
+                      </div>              
+                    </div>
+                  </div>
+                </div>
+          
               </div>
+          
+              <!-- Carousel controls -->
+              <button class="carousel-control-prev custom-carousel-btn" type="button" data-bs-target="#researchCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next custom-carousel-btn" type="button" data-bs-target="#researchCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </button>
             </div>
           </div>
 
@@ -258,12 +293,12 @@
                         <span class="card-year">2025</span>
                       </div>
                       <p class="card-text-custom">
-                        Xiao K., Irisumi M., (2025). A Graph-Based Spatio-Temporal POI Ranking Measure for Pickup and Delivery Platforms. 
-                        <i>ACM SIGSPATIAL Undergraduate Student Research Competition.</i> [Event: November 3, 2025]
+                        <b>Xiao K.</b>, Irisumi M., & Bassem C. (2025). A Graph-Based Spatio-Temporal POI Ranking Measure for Pickup and Delivery Platforms. 
+                        <i>ACM SIGSPATIAL Undergraduate Student Research Competition.</i>
                       </p>
                       <div class="mt-auto d-flex gap-2">
                         <a href="https://sigspatial2025.sigspatial.org/src-submission/" class="btn btn-outline-dark flex-fill" target="_blank" rel="noopener">SRC Info</a>
-                        <a href="#" class="btn btn-outline-dark flex-fill">Paper (coming soon...)</a>
+                        <a href="documents/ZoneRank_SRC_SIGSPATIAL25.pdf" class="btn btn-outline-dark flex-fill">Paper (in press)</a>
                       </div>
                     </div>
                   </div>
@@ -278,7 +313,7 @@
                         <span class="card-year">2023</span>
                       </div>
                       <p class="card-text-custom">
-                          Xiao, Karen. “Normalize Menstruation, End Period Poverty” UMD Interpolations (Fall 2023 ed.), 2023.
+                          <b>Xiao, K.</b> “Normalize Menstruation, End Period Poverty” UMD Interpolations (Fall 2023 ed.), 2023.
                           [Annotated version also published in <i>Fearless Writing: Rhetoric, Inquiry, Argument (3e)</i>, 2025.]
                       </p>
                       <div class="mt-auto d-flex gap-2">
@@ -363,7 +398,7 @@
 
     <footer>
         <p><span class="text-muted">© Karen Xiao, 2025. | THIS SITE IS LICENSED UNDER THE MIT LICENSE</span></p>
-        <p><span class="text-muted">last updated: August 21 2025</span></p>
+        <p><span class="text-muted">last updated: September 22, 2025</span></p>
     </footer>
 
     <script src="js/jquery-3.7.0.js"></script>
