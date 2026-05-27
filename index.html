@@ -1,470 +1,113 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Karen Xiao</title>
-    <link rel="icon" href="images/KX.png" type="image/svg+xml">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <head>
+        <title>Karen Xiao</title>
+        <link href="styles.css" rel="stylesheet"/>
+        <link rel="icon" href="images/KX.png" type="image/svg+xml">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">  
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+    </head>
 
-</head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-          <div class="container">
-            <a class="navbar-brand" href="#">Karen Xiao</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-    
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#intro">Home</a>
-                  </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#skills">Skills</a>
-                  </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#experience">Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </header>
-    <main>
-        <section id="intro" class="pt-5 mt-5 py-5">
-            <div class="container">
-              <div class="row justify-content-center align-items-start">
-                
-                <div class="col-12 col-md-4 d-flex justify-content-center mb-4 mb-md-0">
-                  <img src="images/profile-pic.jpg" alt="Karen Xiao portrait" class="img-fluid rounded-circle shadow-sm profile-img">
+    <body>
+        <main>
+            <!-- Navigation -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">Karen Xiao</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+                            <li class="nav-item"><a class="nav-link" href="CV.html">CV</a></li>
+                        </ul>
+                    </div>
                 </div>
-          
-                <div class="col-12 col-md-8 ps-md-5 text-center text-md-start">
-                  <h1>Hi, I'm Karen 👋</h1>
-                  <p class="subtitle">Computer Science + Mathematics Student & Researcher</p>
-          
-                  <div class="connect mt-4">
-                    <h4 class="mb-3">Connect with Me!</h4>
-          
-                    <div class="mb-3">
-                      <a href="mailto:kx100@wellesley.edu" class="btn btn-outline-dark btn-lg d-inline-flex align-items-center" target="_blank" rel="noopener">
-                        <i class="bi bi-envelope-fill me-2"></i> kx100@wellesley.edu
-                      </a>
-                    </div>
-          
-                    <div class="mb-3">
-                      <a href="https://linkedin.com/in/karen-l-xiao" class="btn btn-outline-dark btn-lg" target="_blank" rel="noopener" title="LinkedIn">
-                        <i class="bi bi-linkedin"></i>
-                      </a>
-                      <a href="https://github.com/xiaokaren" class="btn btn-outline-dark btn-lg" target="_blank" rel="noopener" title="GitHub">
-                        <i class="bi bi-github"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-          
-              </div>
-            </div>
-          </section>
-    
-    <section id="about" class="py-3">
-        <div class="container">
-            <h1>About Me</h1>
-            <p>I'm a senior at Wellesley College double majoring in Computer Science and Mathematics. My research interests lie at the intersection of data science, educational technologies, 
-                human-AI interaction, and algorithm design. Practically, my work analyzes the effectiveness of algorithms and systems using data science techniques. I'm eager to join interdisciplinary 
-                projects which would allow me to collaborate across diverse fields, apply data-driven insights, and create innovative solutions that bridge technology and human-centered design. </p>
+            </nav>
 
-            <p>Outside of academics, I'm co-captain of the Wellesley Club Squash team, Networking Chair of the Wellesley CS Club, and Social Media Manager of the Wellesley CS Department. In my free time, 
-                I love crocheting, traveling, listening to music, and cooking (though I'm still pretty new <span class='text-decoration-line-through'>and not very good</span>).</p>
-            <!-- <p>If you're interested in learning more about me as a person, check out my "Miscellaneous" tab :)</p> -->
-
-            <p>I'm always happy to chat about potential collaborations, past work, my research (or personal!) backgrounds and interests, or even just a quick hello, so please feel free to reach out :)</p>
-        </div>
-    </section>
-
-    <section id="skills" class="py-3">
-      <div class="container">
-        <h1>Skills</h1>
-        <div class="d-flex flex-wrap gap-2">
-          <span class="px-3 py-1 border border-dark text-dark rounded">Python</span>
-          <span class="px-3 py-1 border border-dark text-dark rounded">R</span>
-          <span class="px-3 py-1 border border-dark text-dark rounded">Java</span>
-          <span class="px-3 py-1 border border-dark text-dark rounded">C</span>
-          <span class="px-3 py-1 border border-dark text-dark rounded">SQL/SQLite</span>
-          <span class="px-3 py-1 border border-dark text-dark rounded">Pandas</span>
-          <span class="px-3 py-1 border border-dark text-dark rounded">MATLAB</span>
-          <span class="px-3 py-1 border border-dark text-dark rounded">HTML/CSS</span>
-          <span class="px-3 py-1 border border-dark text-dark rounded">LaTeX</span>
-          <span class="px-3 py-1 border border-dark text-dark rounded">GitHub</span>
-          <span class="px-3 py-1 border border-dark text-dark rounded">Alloy</span>
-          <span class="px-3 py-1 border border-dark text-dark rounded">+ more!</span>
-        </div>
-      </div>
-    </section>
-    
-    
-    <section id="experience" class="py-3">
-        <div class="container">
-            <h1>Experience</h1>
-            <div class="accordion accordion-flush" id="accordionFlushExample">
-              <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingFive">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                          <div>
-                              <h5 class="mb-1">Algorithms Tutor & Grader <span class="text-muted">@ Wellesley College CS Department</span></h5>
-                              <p>January 2024 - Present</p>
-                          </div>
-                      </button>
-                    </h2>
-                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body">
-                          <p> From Spring 2024 to present, I have been a tutor and grader for CS 231 Design and Analysis of Algorithms. In this role, I hold weekly office hours, conduct 1-on-1 tutoring sessions, and grade problem sets.
-                          </p>
-                      </div>
-                    </div>
-                  </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingOne">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                            <div>
-                                <h5 class="mb-1">NSF REU Intern <span class="text-muted">@ CMU Human-Computer Interaction Institute</span></h5>
-                                <p>May 2025 - September 2025</p>
+            <!-- Header-->
+            <header class="py-5">
+                <div class="container px-5">
+                    <div class="row align-items-center">
+                        <div class="col-xl-5">
+                            <!-- Replace this div with your own photo -->
+                            <div class="bg-gradient-primary-to-secondary d-flex justify-content-center">
+                                <img src="images/profile-pic.jpg" class="profile pl-2" alt="photo of karen xiao">
                             </div>
-                        </button>
-                    </h2>
-                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>I am an undergraduate research intern at Carnegie Mellon University's Human-Computer Interaction Institute through the NSF REU Program. At CMU HCII I am working in Profesor Vincent Aleven's 
-                                Creating Adaptive Tutoring Systems (CATS) Lab under the mentorship of PhD student Conrad Borchers to study the effectiveness of inteligent tutoring systems through data-driven methods. In this role I:
-                            </p>
-                            <ul>
-                              <li><p>Applied statistical methods to analyze the impact of data-driven redesign on intelligent tutoring systems</p></li>
-                              <li><p>Identified new insights into what constitutes a productive level of diﬃculty for data-opimized practice</p></li>
-                            </ul>
                         </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                        <div>
-                            <h5 class="mb-1">Research Assistant <span class="text-muted">@ Institute for Mathematics and Democracy</span></h5>
-                            <p>December 2024 - September 2025</p>
-                        </div>
-                    </button>
-                  </h2>
-                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                        <p>The Institute for Mathematics and Democracy (IMD) at Wellesley College aims to conduct research at the intersection of mathematics and democracy by employing cutting edge methods to tackle current political
-                            and societal issues. At the IMD, I worked as a research assistant for a project on empirical comparison of various ranked choice voting methods. In this position, I 
-                        </p>
-                        <ul>
-                              <li><p>Simulated various ranked choice elecIon methods on datasets containing ballots for thousands of real</p></li>
-                              <li><p>Conducted empirical comparison of various ranked choice voIng methods using Python and VoteKit</p></li>
-                        </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                        <div>
-                            <h5 class="mb-1">Undergraduate Student Researcher <span class="text-muted">@ Wellesley CrowdNets Lab</span></h5>
-                            <p>September 2024 - May 2025</p>
-                        </div>
-                    </button>
-                  </h2>
-                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">  
-                        <p> In my third year at Wellesley College I conducted a year-long independent study in Professor Christine Bassem's CrowdNets Lab. The CrowdNets lab focuses on developing mechanisms and solutions to help
-                            guide the mobility of crowds and vehicles that participate in crowd-based platforms. My research with the CrowdNets Lab lies at the intersection of spatial data, algorithm design, graph theory, and social computing.
-                            This year, we defined a new metric of centrality that can help reposition idle drivers within gig-based platforms (like Uber and Doordash) in order to maximize profits and reduce emissions. My key contributions included:
-                        </p>   
-                        <ul>
-                            <li><p>Using graph theory to define a new metric of node centrality that improves on gaps in existing research </p></li>
-                            <li><p>Analyzing existing research papers in the field to identify important research gaps and devise solutions</p></li>
-                            <li><p>Designing and testing algorithms to improve task allocation in the context of gig-based platforms </p></li>
-                        </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingFour">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                          <div>
-                              <h5 class="mb-1">Data Analyst Intern <span class="text-muted">@ Quantbot Technologies LP </span></h5>
-                              <p>Summer 2023, Summer 2024</p>
-                          </div>
-                      </button>
-                    </h2>
-                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body"> 
-                        <p> Quantbot Technologies LP is a global quantitative investment advisor specializing in complex quantitative investment strategies. I had the privilege of interning with Quantbot's Data Trading Lab (DTL) for
-                            two summers. At Quantbot, I cleaned and processed large-scale financial datasets using tools like Pandas, DuckDB, and SQL to prepare them for subsequent research and analysis. In this role, I:
-                        </p>
-                        <ul>
-                            <li><p>Optimized data capture and validation process using DuckDB, Pandas, and Apache Iceberg </p></li>
-                            <li><p>Assessed, enriched, and normalized company outlook and projection data covering all global markets</p></li>
-                            <li><p>Researched new database query tools that the company can implement to optimize data capture toolkits</p></li>
-                            <li><p>Collaborated with quantitative researchers, traders, and external data vendors </p></li>      
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-        </div>
-    </section>
+                        <div class="col-xl-7">
+                            <!-- Header text content-->
+                            <div class="text-center text-xl-start py-5">
+                                <!-- <div class="tagline">Hello World, my name is</div> -->
+                                <!-- <h3 class="introduction mt-2">This is my personal website</h3> -->
+                                <h1><span class="title">Hi, I'm Karen!</span></h1>
+                                <p><span class="subtitle">Incoming CS PhD Student at UC San Diego</span></p>
 
-    <section id="projects" class="pt-3 pb-5">
-      <div class="container">
-        <h1 class="mb-5 mb-md-3">Research & Projects</h1>
-        <div class="row g-4">
-          <div class="col-12 col-md-4">
-            <h5>Research Experiences</h5>
-            <div id="researchCarousel" class="carousel slide shadow-sm border-0" data-bs-ride="carousel">
-              <div class="carousel-inner">
-          
-                <!-- First item -->
-                <div class="carousel-item active">
-                  <div class="card h-100 shadow-sm border-0">
-                    <img src="images/cmu-hcii.png" class="card-img-top" alt="Project 1 preview">
-                    <div class="card-body d-flex flex-column">
-                      <div class="d-flex justify-content-between align-items-center mb-2">
-                        <h5 class="card-title mb-0">NSF REU Fellow</h5>
-                        <span class="card-year">2025</span>                
-                      </div>
-                      <p class="card-text card-text-custom">
-                          Applied methods from educational data science and statistics to analyze the impacts of 
-                          data-driven redesign of tutoring systems on student learning outcomes.
-                      </p>
-                      <a href="documents/Xiao-ExploringTheImpactOfDataDrivenOptimizationOfTutoringSystemsOnStudentLearning.pdf" class="btn btn-outline-dark mt-auto" target="_blank" rel="noopener">Poster</a>
+                                <p><span class="subtitle" style="color:black; font-weight: 500;">Connect With Me:</span></p>
+                                <div class="d-flex gap-2">
+                                    <a class="btn btn-outline-dark btn-sm" href="mailto:kx100@wellesley.edu"><i class="bi bi-envelope-fill"></i>  Email</a>
+                                    <a class="btn btn-outline-dark btn-sm" href="https://github.com/xiaokaren" target="_blank" rel="noopener"><i class="bi bi-github"></i>  GitHub</a>
+                                    <a class="btn btn-outline-dark btn-sm" href="https://linkedin.com/in/karen-l-xiao" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i>  LinkedIn</a>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
-                  </div>
-                </div>
-          
-                <div class="carousel-item">
-                  <div class="card h-100 shadow-sm border-0">
-                    <img src="images/imd.png" class="card-img-top" alt="DRIP Labs">
-                    <div class="card-body d-flex flex-column">
-                      <div class="d-flex justify-content-between align-items-center mb-2">
-                        <h5 class="card-title mb-0">IMD Research Intern</h5>
-                        <span class="card-year">2025</span>                
-                      </div>
-                      <p class="card-text-custom">
-                         Conducted research on original empirical analysis of ranked choice voting methods for the Institute for Mathematics and Democracy.
-                      </p>
-                      <div class="mt-auto d-flex gap-2">
-                        <a href="https://mathematics-democracy-institute.org/empirical-analysis-of-ranked-choice-voting-methods/" class="btn btn-outline-dark flex-fill" target="_blank" rel="noopener">Written Report + Visualization Website</a>
-                      </div>              
-                    </div>
-                  </div>
-                </div>
-          
-              </div>
-          
-              <!-- Carousel controls -->
-              <button class="carousel-control-prev custom-carousel-btn" type="button" data-bs-target="#researchCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-              </button>
-              <button class="carousel-control-next custom-carousel-btn" type="button" data-bs-target="#researchCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-              </button>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-4">
-            <h5>Published Works</h5>
-            <div id="publishedWorksCarousel" class="carousel slide shadow-sm border-0" data-bs-ride="carousel">
-              <div class="carousel-inner">
                 
-                <!-- First item -->
-                <div class="carousel-item active">
-                  <div class="card h-100 shadow-sm border-0">
-                    <img src="images/acm-sigspatial.png" class="card-img-top" alt="ZoneRank preview">
-                    <div class="card-body d-flex flex-column">
-                      <div class="d-flex justify-content-between align-items-center mb-2">
-                        <h5 class="card-title mb-0">ZoneRank</h5>
-                        <span class="card-year">2025</span>
-                      </div>
-                      <p class="card-text-custom">
-                        <b>Xiao K.</b>, Irisumi M., & Bassem C. (2025). A Graph-Based Spatio-Temporal POI Ranking Measure for Pickup and Delivery Platforms. 
-                        <i>ACM SIGSPATIAL '25.</i> [Undergraduate SRC 2nd place winner 🏆]                    
-                      </p>
-                      <div class="mt-auto d-flex gap-2">
-                        <a href="https://doi.org/10.1145/3748636.3766535" class="btn btn-outline-dark flex-fill"  target="_blank" rel="noopener">Paper</a>
-                        <a href="documents/ZoneRank_SRC_Poster.pdf" class="btn btn-outline-dark flex-fill" target="_blank" rel="noopener">Poster</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-          
-                <div class="carousel-item">
-                  <div class="card h-100 shadow-sm border-0">
-                    <img src="images/umd-interpolations.png" class="card-img-top" alt="UMD Department of English">
-                    <div class="card-body d-flex flex-column">
-                      <div class="d-flex justify-content-between align-items-center mb-2">
-                        <h5 class="card-title mb-0">Position Paper</h5>
-                        <span class="card-year">2023</span>
-                      </div>
-                      <p class="card-text-custom">
-                          <b>Xiao, K.</b> “Normalize Menstruation, End Period Poverty” UMD Interpolations (Fall 2023 ed.), 2023.
-                          [Annotated version also published in <i>Fearless Writing: Rhetoric, Inquiry, Argument (3e)</i>, 2025.]
-                      </p>
-                      <div class="mt-auto d-flex gap-2">
-                        <a href="https://english.umd.edu/research-innovation/journals/interpolations/fall-2023/normalize-menstruation-end-period-poverty" class="btn btn-outline-dark flex-fill" target="_blank" rel="noopener">Paper</a>
-                        <a href="documents/karen-xiao-revised-infographic-for-interpolations-2023.pdf" class="btn btn-outline-dark flex-fill" target="_blank" rel="noopener">Public Remediation Project</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          
-              <!-- Carousel controls -->
-              <button class="carousel-control-prev custom-carousel-btn" type="button" data-bs-target="#publishedWorksCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-              </button>
-              <button class="carousel-control-next custom-carousel-btn" type="button" data-bs-target="#publishedWorksCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-              </button>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-4">
-            <h5>Projects</h5>
-            <div id="projectsCarousel" class="carousel slide shadow-sm border-0" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="card h-100 shadow-sm border-0">
-                    <img src="images/stat-318.png" class="card-img-top" alt="STAT 318">
-                    <div class="card-body d-flex flex-column">
-                      <div class="d-flex justify-content-between align-items-center mb-2">
-                        <h5 class="card-title mb-0">Modeling Student Performance</h5>
-                        <span class="card-year">2025</span>
-                      </div>
-                      <p class="card-text-custom">
-                          This final project for STAT 318 Regression Analysis and Statistical Models was awarded Best In-Class Presentation 🏆
-                      </p>
-                      <div class="mt-auto d-flex gap-2">
-                        <a href="documents/STAT 318 Final Paper.pdf" class="btn btn-outline-dark flex-fill" target="_blank" rel="noopener">Paper</a>
-                        <a href="https://github.com/xiaokaren/stat318-final-project" class="btn btn-outline-dark flex-fill" target="_blank" rel="noopener">Github</a>
-                      </div>
-                    </div>
-                  </div>
                 </div>
 
+            </header>
 
-                <div class="carousel-item">
-                  <div class="card h-100 shadow-sm border-0">
-                    <img src="images/cs-333.png" class="card-img-top" alt="CS340">
-                    <div class="card-body d-flex flex-column">
-                      <div class="d-flex justify-content-between align-items-center mb-2">
-                        <h5 class="card-title mb-0">Analyzing BART Generalizability</h5>
-                        <span class="card-year">2025</span>                
-                      </div>
-                      <p class="card-text-custom">
-                        This final project for CS 333 Natural Language Processing examines the generalizability of the BART model on a resume summarization task using models and datasets from Huggingface.
-                      </p>
-                      <div class="mt-auto d-flex gap-2">
-                        <a href="documents/CS 333 Final Paper.pdf" class="btn btn-outline-dark flex-fill" target="_blank" rel="noopener">Paper</a>
-                        <a href="https://github.com/xiaokaren/cs-333-final-project" class="btn btn-outline-dark flex-fill" target="_blank" rel="noopener">Github</a>
-                      </div>              
-                    </div>
-                  </div>
+            <!-- About Section-->
+            <section class="bg-light py-5">
+                <div class="container text-left">
+                    <h4 class="mb-3">About Me</h4>
+                    <p class="lead fw-light mb-4">I'm an incoming CS PhD student at the 
+                        <a href="https://cse.ucsd.edu/" target="_blank">University of California San Diego</a> in the 
+                        <a href="https://sites.google.com/ucsd.edu/cs-ed-research-group/home" target="_blank">CER Lab</a>, 
+                        advised by <a href="https://leoporter.ucsd.edu/" target="_blank">Leo Porter</a>, 
+                        <a href="https://geraldsoosairaj.github.io/" target="_blank">Gerald Soosairaj</a>, 
+                        and <a href="https://cseweb.ucsd.edu/~wgg/" target="_blank">Bill Griswold</a>. 
+                        My research interests lie broadly at the intersection of data science, education, 
+                        and human-AI interaction.</p>
+
+                    <p class="lead fw-light mb-4">Most recently, I graduated summa cum laude from 
+                        <a href="https://www.wellesley.edu/" target="_blank">Wellesley College</a> with a Bachelor of Arts 
+                        in Computer Science and Mathematics. At Wellesley, I received departmental honors in Computer Science
+                        for my thesis titled "Quantifying Diversity of Educational Evaluation Using Relative Student Performance" as well as the 
+                        <a href="https://www.wellesley.edu/news-events/commencement/student-prizes" target="_blank">
+                            Excellence in Teaching Award in Computer Science</a>.
+                    </p>
+
+                    <p class="lead fw-light mb-4">Previously I've conducted internships in both academia and industry at the 
+                        <a href="https://hcii.cmu.edu/" target="_blank">CMU Human-Computer Interaction Institute</a>, as an NSF REU Intern,
+                        and <a href="https://www.quantbot.com/" target="_blank">Quantbot Technologies</a>, as a Data Analyst Intern.</p>
+
+                    <p class="lead fw-light mb-4">Outside of academics, I love finding good matcha soft serve, spending time at the beach, 
+                        going on long drives with friends, and cooking (though I'm still pretty new <span class='text-decoration-line-through'>and not very good</span>).</p>
                 </div>
+            </section>
 
-                <div class="carousel-item">
-                  <div class="card h-100 shadow-sm border-0">
-                    <img src="images/cs-220.png" class="card-img-top" alt="CS340">
-                    <div class="card-body d-flex flex-column">
-                      <div class="d-flex justify-content-between align-items-center mb-2">
-                        <h5 class="card-title mb-0">EatWelles Interactive Prototype</h5>
-                        <span class="card-year">2025</span>                
-                      </div>
-                      <p class="card-text-custom">
-                        This final project for CS 220 Human-Computer Interaction designs and evaluates a prototype for a meal sharing platform for Wellesley students.
-                      </p>
-                      <div class="mt-auto d-flex gap-2">
-                        <a href="documents/CS220 Final Extended Abstract.pdf" class="btn btn-outline-dark flex-fill" target="_blank" rel="noopener">Paper</a>
-                        <a href="https://www.figma.com/proto/Ac9aGxgzoPowW8Aq32cwhA/Prototype?node-id=122-498&t=YKRYQqWdBJwaJvBo-1" class="btn btn-outline-dark flex-fill" target="_blank" rel="noopener">Prototype</a>
-                      </div>              
-                    </div>
-                  </div>
+            <!-- News Section -->
+            <section class="py-5">
+                <div class="container text-left">
+                    <h3 class="mb-3">News</h3>
+                    <ul class="news-list lead fw-light">
+                        <li><span class="news-dot"></span><span><span class="dates">May 2025</span> – Graduated from Wellesley College and received the Excellence in Teaching Award in Computer Science 💙</span></li> 
+                        <li><span class="news-dot"></span><span><span class="dates">April 2026</span> – Committed to UCSD 🎉 Received a Jacobs School of Engineering Fellowship and an NSF GRFP Honorable Mention</span></li>
+                        <li><span class="news-dot"></span><span><span class="dates">Nov 2025</span> – Won 2nd place in the Undergraduate SRC at <a href="https://sigspatial2025.sigspatial.org/">ACM SIGSPATIAL</a>🏆</span></li>
+                    </ul>
                 </div>
-          
-                <!-- <div class="carousel-item">
-                  <div class="card h-100 shadow-sm border-0">
-                    <img src="images/cs-340.png" class="card-img-top" alt="CS340">
-                    <div class="card-body d-flex flex-column">
-                      <div class="d-flex justify-content-between align-items-center mb-2">
-                        <h5 class="card-title mb-0">Modeling Bellman-Ford</h5>
-                        <span class="card-year">2024</span>                
-                      </div>
-                      <p class="card-text-custom">
-                        Our project tackles two main problems: modeling the normal Bellman-Ford Algorithm and modeling the distributed (DSDV) Bellman-Ford Algorithm in Alloy.
-                      </p>
-                      <div class="mt-auto d-flex gap-2">
-                        <a href="documents/340 final presentation Grace Karen.pdf" class="btn btn-outline-dark flex-fill" target="_blank" rel="noopener">Presentation</a>
-                        <a href="https://github.com/gracejiang16/bellmanford-adhoc" class="btn btn-outline-dark flex-fill" target="_blank" rel="noopener">Github</a>
-                      </div>              
-                    </div>
-                  </div>
-                </div> -->
-          
-                <div class="carousel-item">
-                  <div class="card h-100 shadow-sm border-0">
-                    <img src="images/drip-labs.png" class="card-img-top" alt="DRIP Labs">
-                    <div class="card-body d-flex flex-column">
-                      <div class="d-flex justify-content-between align-items-center mb-2">
-                        <h5 class="card-title mb-0">Drip Labs</h5>
-                        <span class="card-year">2025</span>                
-                      </div>
-                      <p class="card-text-custom">
-                        DRIP Labs is a fun showcase celebrating the 2025 CMU HCII REU Cohort. This site compiles our research and creative endeavors throughout the summer.
-                      </p>
-                      <div class="mt-auto d-flex gap-2">
-                        <a href="https://haleynoh.github.io/drip-labs/" class="btn btn-outline-dark flex-fill" target="_blank" rel="noopener">Website</a>
-                      </div>              
-                    </div>
-                  </div>
-                </div>
-              </div>
-          
-              <!-- Carousel controls -->
-              <button class="carousel-control-prev custom-carousel-btn" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-              </button>
-              <button class="carousel-control-next custom-carousel-btn" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-              </button>
-            </div>
-          </div>
-    
-        </div>
-      </div>
-    </section>
-    
-    </main>
+            </section>
+        </main>
 
-    <footer>
-        <p><span class="text-muted">© Karen Xiao, 2025.</span></p>
-        <p><span class="text-muted">last updated: January 22, 2026</span></p>
-    </footer>
+        <footer>
+            <p><span class="text-muted">© Karen Xiao, 2025. // last updated: May 26, 2026</span></p>
+            <!-- <p><span class="text-muted"></span></p> -->
+        </footer>
 
-    <script src="js/jquery-3.7.0.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
-</body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
 </html>
